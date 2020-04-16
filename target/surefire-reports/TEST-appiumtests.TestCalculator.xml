@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="appiumtests.TestCalculator" time="13.744" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="appiumtests.TestCalculator" time="15.865" errors="0" skipped="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
@@ -27,9 +27,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\grewa\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1389547408856026232.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\grewa\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7763741519489432450.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-13.0.2/bin/server;C:/Program Files/Java/jdk-13.0.2/bin;C:\Users\grewa\work\appium\android_sdk2\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-13.0.2\bin;C:\Python27\;C:\Python27\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\grewa\work\appium\android_sdk\platform-tools;C:\Users\grewa\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\grewa\AppData\Local\Programs\Python\Python38-32\;C:\Users\grewa\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.1\bin;;C:\Program Files\Docker Toolbox;C:\Users\grewa\AppData\Roaming\npm;C:\Users\grewa\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\grewa\AppData\Local\Yarn\bin;C:\Windows\system32;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-13.0.2/bin/server;C:/Program Files/Java/jdk-13.0.2/bin;C:\Users\grewa\work\appium\android_sdk2\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-13.0.2\bin;C:\Python27\;C:\Python27\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\grewa\work\appium\android_sdk\platform-tools;C:\Users\grewa\work\maven\apache-maven-3.6.3\bin;C:\Users\grewa\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\grewa\AppData\Local\Programs\Python\Python38-32\;C:\Users\grewa\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.1\bin;;C:\Program Files\Docker Toolbox;C:\Users\grewa\AppData\Roaming\npm;C:\Users\grewa\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\grewa\AppData\Local\Yarn\bin;C:\Windows\system32;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -44,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_241\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -61,8 +61,10 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="appiumtests.TestCalculator" name="testSimpleAdd" time="4.063"/>
-  <testcase classname="appiumtests.TestCalculator" name="testSimpleSub" time="4.335"/>
-  <testcase classname="appiumtests.TestCalculator" name="testSimpleMultiply" time="3.702"/>
-  <testcase classname="appiumtests.TestCalculator" name="testInitialSnapshot" time="1.644"/>
+  <testcase classname="appiumtests.TestCalculator" name="testSimpleAdd" time="4.197"/>
+  <testcase classname="appiumtests.TestCalculator" name="testSimpleSub" time="4.234"/>
+  <testcase classname="appiumtests.TestCalculator" name="testSimpleMultiply" time="3.716"/>
+  <testcase classname="appiumtests.TestCalculator" name="testInitialSnapshot" time="3.718">
+    <skipped/>
+  </testcase>
 </testsuite>
