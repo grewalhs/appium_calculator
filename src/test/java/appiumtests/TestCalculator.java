@@ -44,7 +44,7 @@ public class TestCalculator {
 		cap.setCapability("appPackage", "com.sec.android.app.popupcalculator");
 		cap.setCapability("appActivity", "com.sec.android.app.popupcalculator.Calculator");
 				
-		URL url =  new URL("http://0.0.0.0:4723/wd/hub");
+		URL url =  new URL("http://75.158.114.124:4723/wd/hub");
 		androidDriver  = new AndroidDriver<MobileElement>(url, cap);
 		
 		
