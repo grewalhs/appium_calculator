@@ -3,8 +3,15 @@
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
 
-trigger:
-- master
+trigger: none
+pr: none
+
+schedules:
+- cron: "10 50 * * *"
+  displayName: string # friendly name given to a specific schedule
+  branches:
+    include: master 
+  always: true
 
 pool:
   vmImage: 'ubuntu-latest'
