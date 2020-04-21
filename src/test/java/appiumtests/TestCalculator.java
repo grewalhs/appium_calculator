@@ -28,8 +28,8 @@ public class TestCalculator {
 	
     @Before
     public void clearCalculator() {
-    	MobileElement clear =  androidDriver.findElement(By.id("com.sec.android.app.popupcalculator:id/calc_keypad_btn_clear"));
-    	clear.click();
+//    	MobileElement clear =  androidDriver.findElement(By.id("com.sec.android.app.popupcalculator:id/calc_keypad_btn_clear"));
+//    	clear.click();
     }
 	
 	@BeforeClass
