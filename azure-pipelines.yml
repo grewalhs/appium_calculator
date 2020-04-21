@@ -7,10 +7,11 @@ trigger: none
 pr: none
 
 schedules:
-- cron: "56 10 * * *"
+- cron: "16 11 * * *"
   displayName: 'Scheduled run'
   branches:
-    include: master 
+    include: 
+    - master 
   always: true
 
 pool:
