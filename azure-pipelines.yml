@@ -7,8 +7,8 @@ trigger: none
 pr: none
 
 schedules:
-- cron: "10 50 * * *"
-  displayName: string # friendly name given to a specific schedule
+- cron: "56 10 * * *"
+  displayName: 'Scheduled run'
   branches:
     include: master 
   always: true
